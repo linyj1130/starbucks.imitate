@@ -4,7 +4,7 @@
 
 项目介绍：
 
-这个项目是基于 Vue.js + Node.js + MongoDB 构建的前后端分离的单页面应用。网站采用响应式布局方案，适配 PC 端和移动端，包含商品展示、定位附近门店、登录注册、获取当前用户会员信息与消费记录等功能，较为完整的展现了星巴克官方网站的全貌。项目部署于[个人网站](https://www.hezhang18.cn)，欢迎访问。
+这个项目是基于 Vue.js + Node.js + MongoDB 构建的前后端分离的单页面应用。网站采用响应式布局方案，适配 PC 端和移动端，包含商品展示、定位附近门店、登录注册、获取当前用户会员信息与消费记录等功能，较为完整的展现了星巴克官方网站的全貌。项目部署于[个人网站](https://www.nice.me.com)，欢迎访问。
 
 项目文件介绍：
 
@@ -27,7 +27,7 @@ Vue + VueX + Vue-Router + Webpack + ES6 + Axios + Node(Express) + MongoDB
 在本地创建一个文件夹（以 starbucks 为例）用于存放当前项目，然后将项目文件克隆至该文件夹内。打开终端进入到 starbucks 文件夹并输入如下命令：
 
 ```bash
-# git clone https://github.com/hezhang18/vue-starbucks
+# git clone https://github.com/
 ```
 
 ### 3.1 启动前端项目
@@ -263,7 +263,7 @@ server {
 
 server {
         listen 80;
-        server_name www.hezhang18.cn;
+        server_name www.star.com;
         rewrite ^(.*) https://$server_name$1 permanent;
 }
 ```
